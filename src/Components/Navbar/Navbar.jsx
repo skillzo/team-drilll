@@ -34,7 +34,7 @@ function Navbar() {
               </Link>
               <li>PRICING</li>
               <li>ABOUT</li>
-              <Link to="/guide">
+              <Link to="/">
                 <li onClick={() => setIsClicked(true)}>GUIDE</li>
               </Link>
               <li>RESOURCES</li>
