@@ -17,7 +17,7 @@ function App() {
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/" element={<Main />}>
           <Route index element={<HomeNav />} />
-          <Route path="/into" element={<Section21 />} />
+          <Route path="/intro" element={<Section21 />} />
           <Route path="/guide" element={<Section22 />} />
           <Route path="/features" element={<Section23 />} />
         </Route>

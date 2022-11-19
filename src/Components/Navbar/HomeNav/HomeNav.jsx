@@ -10,7 +10,7 @@ function HomeNav() {
         </h1>
       </div> */}
       <div className="hero flex flex-col gap-5 p-[1em] mb-[5em] mx-auto md:w-[70%]">
-        <Link to="/into">
+        <Link to="/intro">
           <div className="flex flex-col bg-[#D1E9FF] p-[1em] text-center ">
             <h1 className="font-bold">Introduction</h1>
             <p className="font-light">Get indept idea of Accountpal</p>

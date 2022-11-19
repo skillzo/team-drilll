@@ -29,9 +29,6 @@ function Navbar() {
         {!isClicked && (
           <div className="nav-items absolute bg-white top-[3.5em] left-0 z-10 text-center w-full ">
             <ul className="flex flex-col items-center space-y-[1em] text-lg font-semibold ">
-              <Link to="/">
-                <li onClick={() => setIsClicked(true)}>HOME</li>
-              </Link>
               <li>PRICING</li>
               <li>ABOUT</li>
               <Link to="/">
@@ -60,12 +57,9 @@ function Navbar() {
 
         <div className="">
           <ul className="desktop-nav flex space-x-[1em] lg:space-x-[2em] marker: text-sm lg:text-xs">
-            <Link to="/">
-              <li onClick={() => setIsClicked(true)}>HOME</li>
-            </Link>
             <li>PRICING</li>
             <li>ABOUT</li>
-            <Link to="/guide">
+            <Link to="/">
               <li onClick={() => setIsClicked(true)}>GUIDE</li>
             </Link>
             <li>RESOURCES</li>
