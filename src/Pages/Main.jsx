@@ -8,14 +8,14 @@ function Main() {
   return (
     <>
       <SubNav />
-      <Wrapper>
-        <div className="flex">
-          <SideBar />
+      <div className="flex">
+        <SideBar />
+        <Wrapper>
           <div className="md:w-[60%] md:ml-[4em]">
             <Outlet />
           </div>
-        </div>
-      </Wrapper>
+        </Wrapper>
+      </div>
     </>
   );
 }

@@ -39,6 +39,7 @@ function Navbar() {
               </Link>
               <li>RESOURCES</li>
               <li>COMPANY</li>
+              <li>THIS IS NOT THE NAV</li>
             </ul>
             <div className="Nav-button mt-[2em]">
               <button className="button1 px-[1em] py-[0.5em] rounded-lg">
@@ -68,6 +69,7 @@ function Navbar() {
               <li onClick={() => setIsClicked(true)}>GUIDE</li>
             </Link>
             <li>RESOURCES</li>
+            <li>THIS IS NOT THE NAV</li>
             <li>COMPANY</li>
           </ul>
         </div>

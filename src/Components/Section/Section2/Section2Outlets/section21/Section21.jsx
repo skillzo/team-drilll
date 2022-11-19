@@ -1,5 +1,4 @@
 import React from "react";
-
 function Section21() {
   return (
     <>
@@ -17,7 +16,7 @@ function Section21() {
         </p>
       </div>
       <div className="flex flex-col gap-5">
-        <h1 className="font-bold text-base">Who It's For</h1>
+        <h1 className="font-bold text-base mt-[2em]">Who It's For</h1>
         <p>
           <span className="font-medium">Freelancers:</span>
           &nbsp;Accurate billing and lots of payment options get you paid faster

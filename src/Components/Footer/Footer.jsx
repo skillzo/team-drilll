@@ -14,7 +14,8 @@ function Footer() {
             <h2 className="font-bold text-lg md:text-xl">Account Pal</h2>
           </div>
           <div className="my-[1em] md:w-[70%]">
-            Everything you need to know about the product and billing.
+            This is not the footer Everything you need to know about the product
+            and billing.
           </div>
         </div>
         {/*  */}

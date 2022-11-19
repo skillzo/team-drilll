@@ -75,11 +75,6 @@ function Section22() {
           After the reconciliation process is complete, click Download Button to
           Download your report in PDF or Spreadsheet format.
         </p>
-        <img
-          className="w-[70%] h-400 md:w-[40%] lg:w-[30%] mx-auto my-[1.5em] object-contain"
-          src={image3}
-          alt=""
-        />
       </div>
     </div>
   );
