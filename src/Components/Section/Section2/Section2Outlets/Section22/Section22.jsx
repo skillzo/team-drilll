@@ -5,7 +5,7 @@ import image3 from "../../../../Assets/Img/UPLOADS READY 1.png";
 
 function Section22() {
   return (
-    <div className="flex flex-col gap-10 text-center">
+    <div className="flex flex-col gap-10 text-center md:text-left">
       {/* How to use Accountpal */}
       <div className="flex flex-col gap-4">
         <h1 className="font-bold text-xl">How to use Accountpal</h1>
@@ -22,7 +22,7 @@ function Section22() {
       </div>
       {/* step 1 */}
       <div className="flex flex-col gap-3">
-        <p className="font-bold text-center text-[#194185] text-base">
+        <p className="font-bold text-center md:text-left   text-[#194185] text-base">
           Step one
         </p>
         <p className="text-sm">
@@ -38,7 +38,7 @@ function Section22() {
       </div>
       {/* step 2 */}
       <div className="flex flex-col gap-3">
-        <p className="font-bold text-center text-[#194185] text-base">
+        <p className="font-bold text-center md:text-left text-[#194185] text-base">
           Step Two
         </p>
         <p className="text-sm">
@@ -53,7 +53,7 @@ function Section22() {
       </div>
       {/* step 3 */}
       <div className="flex flex-col gap-3">
-        <p className="font-bold text-center text-[#194185] text-base">
+        <p className="font-bold text-center md:text-left text-[#194185] text-base">
           Step Three
         </p>
         <p className="text-sm">
@@ -68,7 +68,7 @@ function Section22() {
       </div>
       {/* step 4 */}
       <div className="flex flex-col gap-3">
-        <p className="font-bold text-center text-[#194185] text-base">
+        <p className="font-bold text-center md:text-left text-[#194185] text-base">
           Step Four
         </p>
         <p className="text-sm">

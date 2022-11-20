@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../Assets/Img/Logo Main Color.png";
 function Footer() {
   return (
-    <footer className=" bg-[#D1E9FF] w-full text-[#98A2B3]  p-4 sm:p-6 lg:p-[4em] dark:bg-gray-900">
+    <footer className=" bg-[#D1E9FF] w-full text-black p-4 sm:p-6 lg:p-[4em] dark:bg-gray-900">
       <div className="md:flex md:justify-between">
         <div className="flex flex-col mb-6 md:mb-0 text-black ">
           <div className="logo flex items-center">
@@ -14,17 +14,17 @@ function Footer() {
             <h2 className="font-bold text-lg md:text-xl">Account Pal</h2>
           </div>
           <div className="my-[1em] md:w-[70%]">
-            This is not the footer Everything you need to know about the product
-            and billing.
+            This is not the main footer Everything you need to know about the
+            product and billing.
           </div>
         </div>
         {/*  */}
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 lg:w-[70%]">
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-sm font-semibold  uppercase dark:text-white">
               About Us
             </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
+            <ul className=" dark:">
               <li className="mb-4">
                 <a href="/" className="hover:underline ">
                   Our Story
@@ -38,10 +38,10 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-sm font-semibold  uppercase dark:text-white">
               Resources
             </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
+            <ul className=" dark:">
               <li className="mb-4">
                 <a href="/" className="hover:underline ">
                   Help Center
@@ -60,10 +60,10 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-sm font-semibold  uppercase dark:text-white">
               Product
             </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
+            <ul className=" dark:">
               <li className="mb-4">
                 <a href="/" className="hover:underline ">
                   Pricing
@@ -90,7 +90,7 @@ function Footer() {
       </div>
       <hr className="my-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <span className="text-sm  sm:text-center dark:">
           © 2022
           <a href="https://flowbite.com/" className="hover:underline">
             Account Pal
@@ -98,10 +98,7 @@ function Footer() {
           . All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-          <a
-            href="/"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-          >
+          <a href="/" className=" hover: dark:hover:text-white">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -116,10 +113,7 @@ function Footer() {
             </svg>
             <span className="sr-only">Facebook page</span>
           </a>
-          <a
-            href="/"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-          >
+          <a href="/" className=" hover: dark:hover:text-white">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -134,10 +128,7 @@ function Footer() {
             </svg>
             <span className="sr-only">Instagram page</span>
           </a>
-          <a
-            href="/"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-          >
+          <a href="/" className=" hover: dark:hover:text-white">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -148,10 +139,7 @@ function Footer() {
             </svg>
             <span className="sr-only">Twitter page</span>
           </a>
-          <a
-            href="/"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-          >
+          <a href="/" className=" hover: dark:hover:text-white">
             <svg
               className="w-5 h-5"
               fill="currentColor"
